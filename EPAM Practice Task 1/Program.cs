@@ -17,7 +17,6 @@ namespace EPAM_Practice_Task_1
             }
 
             Console.WriteLine("Some string");
-            Console.ReadKey();
         }
     }
 }
