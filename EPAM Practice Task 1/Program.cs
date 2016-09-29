@@ -14,6 +14,7 @@ namespace EPAM_Practice_Task_1
             foreach (var v in first.Sum(first.a, first.b))
             {
                 Console.WriteLine("Vect c = {0}", v); ;
+                Console.WriteLine("Dzebas");
             }
         }
     }
