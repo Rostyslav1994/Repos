@@ -10,3 +10,6 @@ C:\Users\Revett\Desktop\EPAM Practice Task 1\EPAM Practice Task 1\obj\Debug\EPAM
 C:\Users\Revett\Desktop\EPAM Practice Task 1\EPAM Practice Task 1\obj\Debug\EPAM Practice Task 1.csprojResolveAssemblyReference.cache
 C:\Users\Revett\Desktop\EPAM Practice Task 1\EPAM Practice Task 1\bin\Debug\EPAM Practice Task 1.exe
 C:\Users\Revett\Desktop\EPAM Practice Task 1\EPAM Practice Task 1\bin\Debug\EPAM Practice Task 1.pdb
+C:\Repositories\Kotsur\EPAM Practice Task 1\bin\Debug\EPAM Practice Task 1.exe.config
+C:\Repositories\Kotsur\EPAM Practice Task 1\obj\Debug\EPAM Practice Task 1.exe
+C:\Repositories\Kotsur\EPAM Practice Task 1\obj\Debug\EPAM Practice Task 1.pdb

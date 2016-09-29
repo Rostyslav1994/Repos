@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace EPAM_Practice_Task_1
 {
-
     class Vector
-
     {
         public int[] a = new int[3] { 3, 4, 5 };
         public int[] b = new int[3] { 4, 4, 2 };
@@ -18,17 +16,13 @@ namespace EPAM_Practice_Task_1
         public double Len_b;
         public double ang_ab;
 
-
-
         public int[]Sum(int[]a , int[]b)
         {
             int[] Sum = new int[3];
             Sum[0] = a[0] + b[0];
             Sum[1] = a[1] + b[1];
             Sum[2] = a[2] + b[2];
-            return Sum  ;
-            
-
+            return Sum;
         }
 
         public void Subtract()
@@ -39,7 +33,6 @@ namespace EPAM_Practice_Task_1
             Subtract[2] = a[2] - b[2];
 
             Console.WriteLine("Vector a - b = c({0},{1},{2})", Subtract[0], Subtract[1], Subtract[2]);
-
         }
 
         public void ScalMultiplication()
@@ -53,8 +46,7 @@ namespace EPAM_Practice_Task_1
             ScalMultiplication = Multiplication[0] + Multiplication[1] + Multiplication[2];
             ScalMult = ScalMultiplication;
 
-            Console.WriteLine("ScalMultiplication Vectors a & b = {0}", ScalMultiplication);
-            
+            Console.WriteLine("ScalMultiplication Vectors a & b = {0}", ScalMultiplication);    
         }
 
         public void VectlMultiplication()
@@ -68,8 +60,6 @@ namespace EPAM_Practice_Task_1
             i[2] = VectMultiplication[2];
 
             Console.WriteLine("VectlMultiplication a & b = i({0},{1},{2})", VectMultiplication[0], VectMultiplication[1], VectMultiplication[2]);
-            
-
         }
         public void  Length_a()
         {
@@ -95,11 +85,7 @@ namespace EPAM_Practice_Task_1
             double angle = ScalMult / (Len_a * Len_b);
             ang_ab = angle;
 
-            Console.WriteLine("Angle of Vectors a & b = {0}",angle );
-            
+            Console.WriteLine("Angle of Vectors a & b = {0}",angle );           
         }
     }
-    
-
-
 }

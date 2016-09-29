@@ -10,10 +10,11 @@ namespace EPAM_Practice_Task_1
     {
         static void Main()
         {
-
             Vector first = new Vector();
-            foreach (var v in first.Sum(first.a, first.b)) Console.WriteLine("Vect c = {0}",v ); ;
-                     
+            foreach (var v in first.Sum(first.a, first.b))
+            {
+                Console.WriteLine("Vect c = {0}", v); ;
+            }
         }
     }
 }
