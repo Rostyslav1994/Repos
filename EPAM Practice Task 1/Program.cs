@@ -15,6 +15,9 @@ namespace EPAM_Practice_Task_1
             {
                 Console.WriteLine("Vect c = {0}", v); ;
             }
+
+            Console.WriteLine("Some string");
+            Console.ReadKey();
         }
     }
 }
